@@ -1,0 +1,41 @@
+.calculator {
+    margin: auto;
+    width: 50%;
+    
+}
+
+button {
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(63, 68, 68);
+    color: white;
+    box-shadow: 2px 2px rgb(126, 126, 126);
+}
+.pos {
+    margin: 8px;
+}
+
+#numbers { 
+    width: 244px;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 8px 8px rgb(126, 126, 126);
+    
+}
+
+#output {
+    background-color: rgb(196, 175, 61);
+    color: rgb(68, 68, 68);
+    margin: 16px;
+    text-align: center;
+    font-size: 38px;
+    text-align: right;
+    text-shadow: 2px 2px gray;
+    font-family: Digital-7;
+    height: 32px;
+}
+
+@font-face {
+    font-family: Digital-7;
+    src: url(digital-7.ttf);
+}

@@ -1,0 +1,53 @@
+<html>
+
+    <head>
+        <title> Tic Tac Toe</title>
+
+        <link rel="stylesheet" type="text/css" href="src/index.css">
+    </head>
+
+    <body>
+        <section id="calculator" class="calculator">
+            <head>
+                This is a simple calculator. 
+            </head>
+
+             
+                
+            
+
+            <section id="numbers">
+                <p id="output">0</p>
+                <div class="first-row">
+                    <button id="num button" class="pos first-row" onclick="RegisterNum('1')"> 1 </button>
+                    <button id="num button" class="pos first-row" onclick="RegisterNum('2')"> 2 </button>
+                    <button id="num button" class="pos first-row" onclick="RegisterNum('3')"> 3 </button>
+                    <button id="op button" class="first-row" onclick="RegisterOp('+')"> + </button>
+                </div>
+                <div class="second-row">
+                    <button id="num button" class="pos second-row" onclick="RegisterNum('4')"> 4 </button>
+                    <button id="num button" class="pos second-row" onclick="RegisterNum('5')"> 5 </button>
+                    <button id="num button" class="pos second-row" onclick="RegisterNum('6')"> 6 </button>
+                    <button id="op button" class="second-row" onclick="RegisterOp('-')"> - </button>
+                </div>
+                <div class="third-row">
+                    <button id="num button" class="pos third-row" onclick="RegisterNum('7')"> 7 </button>
+                    <button id="num button" class="pos third-row" onclick="RegisterNum('8')"> 8 </button>
+                    <button id="num button" class="pos third-row" onclick="RegisterNum('9')"> 9 </button>
+                    <button id="op button" class="third-row" onclick="RegisterOp('*')"> * </button>
+                </div>
+                <div class="fourth-row">
+                    <button id="num button" class="pos fourth-row" onclick="RegisterNum('0')"> 0 </button>
+                    <button id="op button" class="pos fourth-row" onclick="RegisterOp('/')"> / </button>
+                    <button id="op button" class="pos fourth-row" onclick="RegisterOp('.')"> . </button>
+                    <button id="op button" class="fourth-row" onclick="evaluation()"> = </button>
+                </div>
+                
+
+            </section>
+    </section>
+    </body>
+
+    <script src="src/index.js"></script>
+    
+</html>
